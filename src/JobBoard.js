@@ -85,7 +85,7 @@ const JobBoard = () => {
       <div>
       {jobs.map(job=><Job key={job.id} job={job}/>)}
       </div>
-      {((page+1)*jobsPerPage< jobsIds.length) && <button onClick={loadMore}>{loading ? 'Loading...' : 'Load more'}</button>}
+      {((page+1)*jobsPerPage< jobsIds.length) && <button onClick={loadMore}>{loading ? 'Loading...' : 'Load more jobs'}</button>}
     </div>
   )
 }

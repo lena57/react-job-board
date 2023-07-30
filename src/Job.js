@@ -7,7 +7,7 @@ const Job = ({job}) => {
   }
   return (
     <div className='post'>
-      <a href={job.url} targe='_blank'>
+      <a href={job.url} target='_blank' rel="noreferrer">
         {job.title}
       </a>
       <p>By {job.by}: {formatDate(job.time)}</p>

@@ -4,7 +4,7 @@
 }
 
 .App-header {
-  background-color: whitesmoke;
+  background-color: lightgray;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,8 @@
 
 .post{
   display: grid;
-  background-color: lightblue;
+  background-color: whitesmoke;
+  border-radius: 10px;
   margin: 10px;
   padding: 10px;
   text-align: left;
@@ -24,6 +25,7 @@
 
 button{
   padding: 10px;
+  font-size: 26px;
   color: whitesmoke;
   background-color: orangered;
   border: none;
